@@ -1,0 +1,12 @@
+#news（読売）
+!{wwwyomiuri}=www.yomiuri.co.jp,/index-j.htm,<!-- /news/shuyo start -->,<!-- /news/shuyo end -->,>,<,10
+#news（ZDnet）
+!{wwwgamespot}=www.zdnet.co.jp,/gamespot/index.html,TOP NEWS START,TOP NEWS END,">,<,10
+#news（nikkan）
+!{wwwnikkansports}=www.nikkansports.com,/news/sports/top-sp.html,<ul>,</ul>,">,<,10
+!{wwwnikkangeinou}=www.nikkansports.com,/news/entert/top-et.html,<ul>,</ul>,">,<,4
+#--------------------------------------------
+!@{ニュース},「<q>{wwwyomiuri}</q>」って<cite><a href="http://www.yomiuri.co.jp/" target="_blank">読売新聞のサイト</a></cite>に書いてあったよ。{T感想}
+!@{ゲーム},「<q>{wwwgamespot}</q>」って、<cite><a href="http://www.zdnet.co.jp/gamespot/" target="_blank">GAMESPOT</a></cite>に書いてあったよ。要チェックだね。
+!@{スポーツ},「<q>{wwwnikkansports}</q>」って、<cite><a href="http://www.nikkansports.com/news/sports/top-sp.html" target="_blank">nikkansports.com</a></cite>に書いてあったよ。{T感想}
+!@{芸能},「<q>{wwwnikkangeinou}</q>」って、<cite><a href="http://www.nikkansports.com/news/entert/top-et.html" target="_blank">nikkansports.com</a></cite>に書いてあったよ。{T感想}
